@@ -1,0 +1,112 @@
+
+body
+{
+	background-image: url('pozadina.png');
+    height:auto;
+}
+
+.Menu{
+	margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+	
+}
+
+.Menu li
+{
+	display: inline;
+    float: left;
+    padding: 10px 10px 10px 65px;
+    margin: 0px 0 0 0px;
+	font-family: cursive;
+	
+}
+
+.Menu li a{
+	color:white;
+	text-decoration:none;
+	
+}
+
+.Vijesti1 
+{
+	position: relative;
+    top: -216px;
+    left: 60px;
+    background-color: #0012CA;
+    padding: 10px 10px 0px 5px;
+    color: white; 
+	border: 2px solid black;
+    width: 35%;
+	height:777px;
+	display:inline-block;
+}
+#clanak1 img
+{
+	float:none;
+	height:120px;
+	width:200px;
+	margin-left:20px;
+}
+
+#clanak1 h4
+{
+	color: yellow;
+}
+#clanak2 h4
+{
+	color:yellow:
+}
+#clanak2 img
+{
+	float:none;
+	height:120px;
+	width:200px;
+	margin-left:20px;
+}
+
+.Vijesti2 
+{
+	position: relative;
+    left: 120px;
+    background-color: #0012CA;
+    padding: 10px 10px 0px 5px;
+    color: white;
+	border: 2px solid black;
+    width: 35%;
+	height:777px;
+	display:inline-block;
+}
+#clanak1 img
+{
+	float:none;
+	height:120px;
+	width:200px;
+	margin-left:20px;
+}
+
+#clanak1 h4
+{
+	color: yellow;
+}
+#clanak2 h4
+{
+	color:yellow:
+}
+#clanak2 img
+{
+	float:none;
+	height:120px;
+	width:200px;
+	margin-left:20px;
+}
+
+
+
+
+.centar{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	height:100%;
+}

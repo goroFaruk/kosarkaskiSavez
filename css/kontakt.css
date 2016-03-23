@@ -1,0 +1,34 @@
+.forma
+{	
+    color: yellow;
+    background-color: blue;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20%;
+    padding: 38px 70px 28px 38px;
+    width: 260px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+#labela1
+{	
+	color:yellow;
+    padding: 3px 6px 13px 62px;
+}
+#labela2
+{	
+	color:yellow;
+    padding: 3px 6px 13px 62px;
+}
+#labela3
+{	
+	color:yellow;
+    padding: 3px 6px 13px 62px;
+}
+#dugme
+{	
+    display: flex;
+    margin-left: 100px;
+}

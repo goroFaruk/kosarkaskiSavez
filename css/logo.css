@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400italic' rel='stylesheet' type='text/css);
+
+
+#logo{
+	width: 300px;
+    height: 20px;
+	position: relative;
+    top: -40px;
+    left: 320px;
+}
+
+#K
+{
+	font-size: 50px;
+    text-shadow: 3px -3px 10px blue;
+    color: yellow;
+    position: relative;
+    
+}
+
+
+#tekst1
+{
+	font-size: 30px;
+    text-shadow: 3px -3px 10px blue;
+    color: yellow;
+    position: relative;
+    left: 28px;
+    top: -96px;
+}
+
+#tekst2
+{
+	position: relative;
+    top: -126px;
+    font-size: 30px;
+    text-shadow: 3px -3px 3px yellow;
+    color: blue;
+}

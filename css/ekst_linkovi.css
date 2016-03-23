@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400italic' rel='stylesheet' type='text/css);
+
+
+.Linkovi a
+{	
+	font-family:Ubuntu;
+	color:white;
+	text-decoration:none;
+}
+
+
+.Linkovi ul li
+{
+	list-style-type: none;
+	text-decoration:none;
+}
+
+
+.Linkovi ul li:hover
+{	
+	list-style-image:url('NBA-icon.png');
+}
+
+.Linkovi
+{
+	width: 150px;
+    margin-left: 350px;
+    margin-right: auto;
+    margin-top: 90px;
+}
