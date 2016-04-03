@@ -31,17 +31,17 @@ body
 .Vijesti1 
 {
 	position: relative;
-    top: -216px;
+    top: -646px;
     left: 60px;
     background-color: #0012CA;
-    padding: 10px 10px 0px 5px;
+    padding: 10px 10px 1000px 5px;
     color: white; 
 	border: 2px solid black;
     width: 35%;
 	height:777px;
 	display:inline-block;
 }
-#clanak1 img
+.clanak img
 {
 	float:none;
 	height:120px;
@@ -49,59 +49,31 @@ body
 	margin-left:20px;
 }
 
-#clanak1 h4
+.clanak h4
 {
 	color: yellow;
 }
-#clanak2 h4
-{
-	color:yellow:
-}
-#clanak2 img
-{
-	float:none;
-	height:120px;
-	width:200px;
-	margin-left:20px;
-}
+
 
 .Vijesti2 
 {
 	position: relative;
     left: 120px;
     background-color: #0012CA;
-    padding: 10px 10px 0px 5px;
+    padding: 10px 10px 1650px 5px;
     color: white;
 	border: 2px solid black;
     width: 35%;
 	height:777px;
 	display:inline-block;
 }
-#clanak1 img
-{
-	float:none;
-	height:120px;
-	width:200px;
-	margin-left:20px;
-}
-
-#clanak1 h4
-{
-	color: yellow;
-}
-#clanak2 h4
-{
-	color:yellow:
-}
-#clanak2 img
-{
-	float:none;
-	height:120px;
-	width:200px;
-	margin-left:20px;
-}
 
 
+.formaZaOdabiranjeNovosti
+{
+	position: absolute;
+    top: 150px;
+}
 
 
 .centar{
