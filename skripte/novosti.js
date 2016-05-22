@@ -10,7 +10,7 @@ onload=function novosti()
 	var ispis = document.getElementsByClassName("datumiObjave");
 	for(var i = 0; i<ispis.length;i++)
 	{
-		var a = ispis[i].getAttribute("pubdate");
+		var a = ispis[i].getAttribute("datetime");
 		var ispis_vakta = new Date(a);
 		if(godina - ispis_vakta.getFullYear() == 0)
 		{

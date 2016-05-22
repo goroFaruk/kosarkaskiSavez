@@ -15,7 +15,7 @@ function filtriraj()
 		}
 		for (var i = 0; i < listaVijesti.length; i++) 
 		{
-			var d = listaVijesti[i].getAttribute("pubdate");
+			var d = listaVijesti[i].getAttribute("datetime");
 			var datum = new Date(d);
 			if(trenutniVakat.getDate()==datum.getDate() && trenutniVakat.getMonth()==datum.getMonth() && trenutniVakat.getFullYear()==datum.getFullYear())
 			{
@@ -38,7 +38,7 @@ function filtriraj()
 		}
 		for (var i = 0; i < listaVijesti.length; i++) 
 		{
-			var d = listaVijesti[i].getAttribute("pubdate");
+			var d = listaVijesti[i].getAttribute("datetime");
 			var datum = new Date(d);
 			if(trenutniVakat.getMonth()==datum.getMonth() && trenutniVakat.getFullYear()==datum.getFullYear() && trenutniVakat.getDate()<trenutniVakat.getDay())
 			{
@@ -61,7 +61,7 @@ function filtriraj()
 		}
 		for (var i = 0; i < listaVijesti.length; i++) 
 		{
-			var d = listaVijesti[i].getAttribute("pubdate");
+			var d = listaVijesti[i].getAttribute("datetime");
 			var datum = new Date(d);
 			if(trenutniVakat.getMonth()==datum.getMonth() && trenutniVakat.getFullYear()==datum.getFullYear() &&(trenutniVakat.getDate()-datum.getDate())<30)
 			{
