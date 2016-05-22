@@ -9,14 +9,14 @@ body
 	margin-left: auto;
     margin-right: auto;
     width: 800px;
-	
+	margin-top: 90px;
 }
 
 .Menu li
 {
 	display: inline;
     float: left;
-    padding: 10px 10px 10px 65px;
+    padding: 10px 10px 10px 35px;
     margin: 0px 0 0 0px;
 	font-family: cursive;
 	
@@ -28,10 +28,10 @@ body
 	
 }
 
-.Vijesti1 
+/*.Vijesti1 
 {
 	position: relative;
-    top: -646px;
+    top: 26px;
     left: 60px;
     background-color: #0012CA;
     padding: 10px 10px 1000px 5px;
@@ -40,7 +40,7 @@ body
     width: 35%;
 	height:777px;
 	display:inline-block;
-}
+}*/
 .clanak img
 {
 	float:none;
@@ -55,7 +55,7 @@ body
 }
 
 
-.Vijesti2 
+/*.Vijesti2 
 {
 	position: relative;
     left: 120px;
@@ -67,12 +67,40 @@ body
 	height:777px;
 	display:inline-block;
 }
+*/
+.vijesti
+{
+position: relative;
+    left: 120px;
+    background-color: #0012CA;
+    padding: 10px 10px 150px 5px;
+    color: white;
+	border: 2px solid black;
+    width: 35%;
+	height:27px;
+	display:inline-block;
+	height:110px;
+	margin: 5px 5px 5px 5px;
+}
 
+.vijesti img{
+	width: 150px;
+height: 100px;
+}
 
 .formaZaOdabiranjeNovosti
 {
-	position: absolute;
-    top: 150px;
+	color: yellow;
+    background-color: blue;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20%;
+    padding: 38px 70px 28px 38px;
+    width: 260px;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
 }
 
 
@@ -81,4 +109,10 @@ body
 	margin-left:auto;
 	margin-right:auto;
 	height:100%;
+}
+
+#sredina
+{
+
+
 }
