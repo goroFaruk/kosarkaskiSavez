@@ -77,6 +77,7 @@
 			</form>
 		</div>
 		<?php
+		date_default_timezone_set('Europe/Sarajevo');
 		$veza = new PDO("mysql:dbname=wtspirala4;host=127.1.253.130:3306;charset=utf8", "adminEEEVaRr", "p7-K61F1FTzz");
 		if(isset($_POST['dugmee']))
 			{

@@ -24,6 +24,7 @@
 	<div class="Menu">
 	<?php
 	session_start();
+	date_default_timezone_set('Europe/Sarajevo');
 	if(isset($_SESSION['sesija']))
 	{
 		print "<ul>
@@ -69,7 +70,7 @@
 							echo 'greska';
 							echo $veza->errorInfo()[2];
 							}
-						if(isset($_POST['sortiraj']))
+						if(isset($_POST['dugme2']))
 						{
 							$kvery = $veza->query("select naslov, slika, tekst, vrijeme from novost ORDER BY naslov ASC");
 							foreach($kvery as $podatak) 
@@ -86,7 +87,7 @@
 								
 							}
 						}
- 						elseif(isset($_POST['sortirajDate']))
+ 						elseif(isset($_POST['dugme1']))
 						{
 							$kvery = $veza->query("select naslov, slika, tekst, vrijeme from novost ORDER BY vrijeme DESC");
 							foreach($kvery as $podatak) 
